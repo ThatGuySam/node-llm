@@ -26,15 +26,18 @@
     "dist"
   ],
   "scripts": {
-    "build": "unbuild",
-    "dev": "unbuild --stub",
+    "build": "nitro build",
+    "dev": "nitro dev",
+    "fubuild": "unbuild",
+    "fudev": "unbuild --stub",
     "lint": "eslint",
     "prepublishOnly": "nr build",
     "release": "bumpp && pnpm publish",
     "start": "tsx src/index.ts",
     "test": "vitest",
     "typecheck": "tsc --noEmit",
-    "prepare": "simple-git-hooks"
+    "prepare": "simple-git-hooks && nitro prepare",
+    "preview": "node .output/server/index.mjs"
   },
   "dependencies": {
     "@huggingface/transformers": "catalog:",
