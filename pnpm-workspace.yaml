@@ -3,6 +3,8 @@ packages:
   - docs
   - packages/*
   - examples/*
+catalog:
+  '@huggingface/transformers': ^3.5.1
 catalogs:
   cli:
     '@antfu/eslint-config': ^4.10.1
