@@ -9,3 +9,8 @@ lib-cov
 logs
 node_modules
 temp
+.data
+.nitro
+.cache
+.output
+.env
