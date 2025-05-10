@@ -37,7 +37,8 @@
     "prepare": "simple-git-hooks"
   },
   "dependencies": {
-    "@huggingface/transformers": "catalog:"
+    "@huggingface/transformers": "catalog:",
+    "nitropack": "catalog:"
   },
   "devDependencies": {
     "@antfu/eslint-config": "catalog:cli",

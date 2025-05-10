@@ -5,6 +5,7 @@ packages:
   - examples/*
 catalog:
   '@huggingface/transformers': ^3.5.1
+  nitropack: latest
 catalogs:
   cli:
     '@antfu/eslint-config': ^4.10.1
@@ -28,5 +29,9 @@ catalogs:
   utils:
     tinyexec: ^0.3.2
 onlyBuiltDependencies:
+  - '@parcel/watcher'
   - esbuild
+  - onnxruntime-node
+  - protobufjs
+  - sharp
   - simple-git-hooks
