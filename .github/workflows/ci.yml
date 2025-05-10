@@ -24,6 +24,9 @@ jobs:
 
       - run: pnpm i -g @antfu/ni
       - run: nci
+
+      - name: 🏋 Prepare Nitro
+        run: nr prepare
       - run: nr lint
       - run: nr typecheck
 
